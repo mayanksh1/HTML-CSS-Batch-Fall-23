@@ -1,0 +1,131 @@
+link : https://codepen.io/okpeshfk-the-scripter/pen/abXvZGV
+
+
+
+
+HTLM :
+
+<html>
+<head>
+    <title>Nike Air Max 97 Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nike Air Max 97 Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c7376d02-9013-482f-80d0-016daf36d35a/air-max-97-herrenschuh-R4T3zC.png" alt="Nike Air Max 97" width="50%" height="50%">
+                <h3>Nike Air Max 97</h3>
+                <p>Available Colors: Black, Silver, White, Red</p>
+                <p>Available Sizes: US 6-12</p>
+                <p>Price: $149.99</p>
+            </div>
+
+            <!-- Product 2 (you can add more products in a similar manner) -->
+            <div class="product">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/726672dc-f22b-4ed9-9df6-58d9a5fed4a0/air-max-97-herrenschuh-9hgVvV.png" alt="Another Nike Air Max 97" width="50%" height="50%">
+                <h3>Another Nike Air Max 97</h3>
+                <p>Available Colors: Blue, Green, Gray</p>
+                <p>Available Sizes: US 7-11</p>
+                <p>Price: $159.99</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Nike Air Max 97</h2>
+            <!-- About section content goes here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Contact information goes here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nike Air Max 97 Store</p>
+    </footer>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS:
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
