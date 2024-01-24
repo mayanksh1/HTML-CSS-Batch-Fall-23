@@ -1,0 +1,162 @@
+Link to the website : https://codepen.io/okpeshfk-the-scripter/pen/eYxpzbR
+
+HTML: 
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nike Air Max 97</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="product">
+        <div class="product-image">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6526433b-40a6-4fae-a94c-5402c51c0252/air-max-97-herrenschuh-zmKjB9.png" alt="Nike Air Max 97">
+        </div>
+        <div class="product-details">
+            <h1>Nike Air Max 97</h1>
+            <p class="product-price">€180.00</p>
+            <p class="product-description">The Nike Air Max 97 delivers a sleek look with its revolutionary full-length Nike Air unit.</p>
+            <div class="color-options">
+                <span class="color-option white"></span>
+                <span class="color-option red"></span>
+                <span class="color-option black"></span>
+                <span class="color-option green"></span>
+                <span class="color-option silver"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS:
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.product {
+    display: flex;
+    margin: 20px;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-details {
+    flex: 2;
+    padding: 20px;
+}
+
+.product h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #f00;
+}
+
+.product-description {
+    font-size: 16px;
+}
+
+.color-options {
+    margin-top: 10px;
+}
+
+.color-option {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+    border: 1px solid #fff;
+}
+
+.green {
+    background-color: green;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.add-to-cart {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
